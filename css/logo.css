@@ -1,0 +1,54 @@
+*,
+::before,
+::after{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+
+}
+body{
+    background-image: linear-gradient(#0B0B0B, #0E3645);
+    height: 100vh;
+    font-family:Abril fatface;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title span{
+    color: rgb(244, 243, 242);
+   font-size: 300%;
+    transition: 0.5s;
+    font-weight: 100;
+    will-change: transform;
+    display:inline-flex;
+
+}
+.title {
+    position: relative;
+}
+.s1 span{
+    transform-origin: bottom;
+}
+.s2 span{
+transform-origin: top;
+transform: translateY(100%)
+rotateX(-90deg);
+}
+.s2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.title:hover .s1 span{
+    transform: translateY(-100%)
+    rotateX(-90deg)
+
+}
+.title:hover .s2 span{
+    transform: translateY(0%)
+    rotateX(0)
+
+}
+#b-logo{
+    padding-bottom: 30px;
+}

@@ -1,0 +1,53 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+ul{
+    background-color: rgb(10, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    padding: 20px;
+    
+}
+body{
+    background-image: url(/images/background\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    padding:0;
+    margin: 0;
+}
+
+.hero{
+    height: 100vh;
+    padding-top: 20%;
+    padding-left: 5%;
+   
+   
+}
+a.nav-item{
+    color: white;
+}
+li {
+    display: inline;
+    margin: 100px;
+    padding: auto;
+}
+h1{
+    font-family: Abril fatface;
+    color: rgb(246, 245, 247);
+    font-weight: 100;
+    font-size: 300%;  
+    
+}
+
+p{
+    height: 200px;
+    width: 600px;
+    color: rgb(246, 246, 249);
+    font-size: large;
+}
+
+
